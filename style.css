@@ -1,0 +1,49 @@
+{
+box-sizing: border-box;
+}
+
+/* Pengatur body +/
+body {
+font-family: Arial;
+nargin: 0;
+background: #038ade;
+}
+
+/ Desain Container */
+.container{
+   display: flex;
+    flex-wrap: wrap; 
+     justify-content: center;
+)
+
+/* Login Box */
+.Login-Box{
+  margin-top: 158px;
+  flex-basis: 400px;
+  background: #fff;
+  padding: 20px;
+}
+
+/* judul login */
+.login-box h2{
+    border-bottom: 1px solid #acc;
+    color: #555;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+/* form */
+input, select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #acc;
+}
+input[type=submit] {
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
